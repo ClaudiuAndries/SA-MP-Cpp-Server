@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\SDK\amxplugin.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDK\sampgdk.c">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\Dialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\Dialogs.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyStatement\KeyStatement.cpp">
+      <Filter>KeyStatement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{0cc1af80-e2a5-4fda-9e2f-90955ffcc2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\amx">
+      <UniqueIdentifier>{ee85ff0e-0b6e-4088-b002-7071023b38b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{4c726e47-062e-40ec-9601-d18085340bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{1c1f20c9-4a8d-44f9-b12d-c9f7f69fe785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{e4e02430-a4db-419f-8898-1cd7acaf7793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyStatement">
+      <UniqueIdentifier>{9dc25101-080d-405b-a45b-49e717d53dec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SDK\plugin.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\plugincommon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\amx\amx.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\amx\getch.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\amx\sclinux.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\sampgdk.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="colors.h" />
+    <ClInclude Include="Player\Player.hpp">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Enum.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\Dialog.hpp">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\Enum.hpp">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Singletons.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\Dialogs.hpp">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyStatement\KeyStatement.hpp">
+      <Filter>KeyStatement</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

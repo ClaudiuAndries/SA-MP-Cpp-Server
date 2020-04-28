@@ -1,0 +1,12 @@
+EXPORTS
+	OnGameModeInit
+	OnPlayerConnect
+	OnPlayerDisconnect
+	OnPlayerRequestClass
+	OnPlayerCommandText
+	OnDialogResponse
+	OnPlayerSpawn
+	OnPlayerKeyStateChange
+	Supports
+	Load
+	Unload
